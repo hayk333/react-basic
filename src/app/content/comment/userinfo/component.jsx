@@ -20,6 +20,7 @@ class UserInfo extends React.Component {
         console.log(this.state.value);
         event.preventDefault();
     }
+    
 
     render() {
         return (
