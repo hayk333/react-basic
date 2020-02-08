@@ -1,0 +1,29 @@
+.content-place {
+    width: 100%;
+    min-height: calc(100vh - 270px);
+    height: auto;
+    margin-top: 70px;
+    background-color: #b6d784;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: darkcyan;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.pp {
+    font-size: 56px;
+}
