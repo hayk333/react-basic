@@ -33,15 +33,11 @@ class UserInfo extends React.Component {
                     {this.props.author.name}
                 </div>
 
+               
                 <form onSubmit={this.handleSubmit}>
                     <label>
                         Name:
-                        <select value={this.state.value} onChange={this.handleChange}>
-                            <option value='apple'>apple</option>
-                            <option value='mango'>mango</option>
-                            <option value='banan'>banan</option>
-                            <option value='ananas'>ananas</option>
-                        </select>
+                        <textarea value={this.state.value} onChange={this.handleChange}></textarea>
                     </label>
                     <button type='submit'>send</button>
                 </form>

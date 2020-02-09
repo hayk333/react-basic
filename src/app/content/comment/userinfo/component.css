@@ -6,3 +6,19 @@
     font-size: 48px;
     font-style: italic;
 }
+
+
+textarea {
+    width: 200px;
+    height: 200px;
+    resize: none;
+    outline: none;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    background-color: steelblue;
+    cursor: pointer;
+}
